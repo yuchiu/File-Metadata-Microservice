@@ -1,6 +1,13 @@
 ## File-Metadata-Microservice
 
-File-Metadata-Microservice
+### Deployed on Heroku [DEMO](https://gentle-retreat-69948.herokuapp.com/)
+
+### User stories:
+- I can submit a FormData object that includes a file upload.
+- When I submit something, I will receive the file size within the JSON response.
+
+#### Example output:
+{ "name": "Algorithms_3rd.pdf", "mimetype": "application/pdf", "size": { "value": "5.1", "unit": "MB" } }
 
 *****************************************************
 
