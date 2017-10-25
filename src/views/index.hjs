@@ -10,7 +10,7 @@
         <h1 class="header">
             File-Metadata-Microservice
         </h1>        
-        <p class="lead">View code on <a href="https://github.com/yuchiu/URL-Shortener-Microservice">github</a></p> 
+        <p class="lead">View code on <a href="https://github.com/yuchiu/File-Metadata-Microservice">github</a></p> 
         <form ref='uploadForm' id='uploadForm' action='http://localhost:8000/upload' method='post' encType="multipart/form-data">            
             <input name="uploadedFile" type="file"/>
             <input class="btn btn-primary"type="submit" value="Upload!">
