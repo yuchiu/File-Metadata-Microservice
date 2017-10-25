@@ -9,7 +9,8 @@
     <div class="container">
         <h1 class="header">
             File-Metadata-Microservice
-        </h1>
+        </h1>        
+        <p class="lead">View code on <a href="https://github.com/yuchiu/URL-Shortener-Microservice">github</a></p> 
         <form ref='uploadForm' id='uploadForm' action='http://localhost:8000/upload' method='post' encType="multipart/form-data">            
             <input name="uploadedFile" type="file"/>
             <input class="btn btn-primary"type="submit" value="Upload!">
@@ -22,14 +23,14 @@
         </blockquote>
         <h3>Example output:</h3>
         <code>
-            {
-                "name": "Algorithms_3rd.pdf",
-                "mimetype": "application/pdf",
-                "size": {
-                    "value": "5.1",
-                    "unit": "MB"
-                }
-            }
+            {</br>
+                "name": "Algorithms_3rd.pdf",</br>
+                "mimetype": "application/pdf",</br>
+                "size": {</br>
+                    "value": "5.1",</br>
+                    "unit": "MB"</br>
+                }</br>
+            }</br>
         </code>
     </div>
 </body>
