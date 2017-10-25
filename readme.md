@@ -1,6 +1,6 @@
 ## File-Metadata-Microservice
 
-### Deployed on Heroku [DEMO](https://gentle-retreat-69948.herokuapp.com/)
+### Deployed on Heroku [DEMO](https://filemetadata-yuchiu.herokuapp.com/)
 
 ### User stories:
 - I can submit a FormData object that includes a file upload.
